@@ -1,0 +1,42 @@
+
+[
+    {
+        "name": "Dasmotos Arts & Crafts",
+        "description": "A web design for Dasmotos Arts & Craft business",
+        "tech": ["HTML", "CSS"],
+        "status": "Completed",
+        "repo": "https://github.com/Khelan18/Dasmotos-arts-crafts-web-design"
+    },
+
+    {
+        "name": "Automating Testing with GitHub Actions",
+        "description": "Learning how to automate testing workflows with github actions",
+        "tech": ["GitHub Actions", "Python"],
+        "status": "Completed",
+        "repo": "https://github.com/Khelan18/add-automated-tests-off-platform-project"
+    },
+
+    {
+        "name": "Forking repo",
+        "description": "Learning how to fork and push to repo",
+        "tech": ["Python"],
+        "status": "Completed",
+        "repo": "https://github.com/Khelan18/add-automated-tests-off-platform-project"
+    },
+
+    {
+        "name": "Learning GitHub CLI",
+        "description": "Using github CLI to fix a file error and track issues",
+        "tech": ["GitHub CLI", "Python"],
+        "status": "Completed",
+        "repo": "https://github.com/Khelan18/try-github-CLI-off-platform-project"
+    },
+
+    {
+        "name": "Excursion",
+        "description": "Introductory HTML and CSS landing page project",
+        "tech": ["HTML", "CSS"],
+        "status": "Completed",
+        "repo": "https://github.com/Khelan18/Excursion"
+    }
+]

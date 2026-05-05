@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f7f7f7;
+  line-height: 1.5;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.completed {
+  border-left: 5px solid green;
+}
+
+.active {
+  border-left: 5px solid orange;
+}
