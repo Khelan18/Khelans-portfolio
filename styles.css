@@ -1,24 +1,42 @@
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
-  background: #f7f7f7;
+  background: black;
   line-height: 1.5;
 }
 
 header {
+  text-align: center;
+  color: rgb(107, 4, 88);
   margin-bottom: 30px;
 }
 
 .card {
-  background: white;
+  background: black;
+  color: green;
   padding: 20px;
   margin-bottom: 15px;
   border-radius: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(17, 78, 1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.card h2 {
+    color: rgb(107, 4, 88);
+}
+
+.card a {
+    color: green;
+    text-decoration: none;
+    
+}
+
+.card a:hover {
+    color: rgb(255, 109, 0);
+}
+
 .card:hover {
+
   transform: translateY(-3px);
 }
 

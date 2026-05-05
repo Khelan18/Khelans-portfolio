@@ -36,11 +36,9 @@ function createProjectCard(project) {
     <h2>${project.name}</h2>
     <p>${project.description}</p>
 
-    <span class="status-badge ${status}">
-      ${project.status}
-    </span>
+    <span class="status-badge ${status}"> ${project.status} </span>
 
-    <p><strong>Tech:</strong> ${(project.tech || []).join(", ")}</p>
+    <p> <strong>Tech:</strong> ${(project.tech || []).join(", ")}</p>
 
     <a href="${project.repo}" target="_blank">View Repo</a>
   `;
